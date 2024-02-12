@@ -1,7 +1,6 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
-const Dotenv = require('dotenv-webpack');
 
 module.exports = {
   entry: './src/index.js', // Your entry point, where Webpack will start bundling
@@ -34,8 +33,7 @@ module.exports = {
         template: path.resolve(__dirname, 'public', 'index.html'),
         // Pass public URL to HTML template:
         publicPath: '/', // This should match the output.publicPath
-      }),
-    new Dotenv() // Automatically load your .env file
+      })
   ],
   resolve: {
     extensions: ['.js', '.jsx'] // Resolve these extensions

@@ -4,10 +4,16 @@ This is the most minimal version I could come up with showing a React + Webflow 
 
 You should be able to select an element on the canvas, click the button, and see webflow.createDOM does not exist on the webflow object and an error in the console.
 
-## Developing
+## How to get started
 
 ```
-$ npm run dev
+$ npm install
+```
+
+You'll need to install everything, including "concurrently" first.
+
+```
+$ npm run start
 ```
 
 The above command does a few things:

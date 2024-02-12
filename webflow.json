@@ -1,0 +1,6 @@
+{  
+  "name": "Minimal webflow demo",
+  "size": "default",
+  "apiVersion": "2",
+  "publicDir": "dist"
+}
